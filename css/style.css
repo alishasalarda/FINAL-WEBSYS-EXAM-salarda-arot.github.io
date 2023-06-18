@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://i.ibb.co/fx4D4XK/loginbg.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  height: 600px;
+  margin-top: 110px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #7e797b, #535353 100% );
+  color: linear-gradient(to right, #7e797b, #424242 100%);
+  box-shadow: 0 0 20px 5px rgba(44, 44, 44, 0.5);
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  margin-top: 175px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #7e797b, #535353 100% );
+  color: linear-gradient(to right, #7e797b, #424242 100%);
+  box-shadow: 0 0 20px 5px rgba(44, 44, 44, 0.5);
+}
+
+.form h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: darkred;
+}
+
+.form input {
+  width: 300px;
+  padding: 15px;
+  font-size: 1rem;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.form .submit-btn {
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  background-color: darkred;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.form .submit-btn:hover {
+  background-color: red;
+}
+
+.form .account-exist,
+.no-account {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight:bold;
+  color: darkred;
+}
+
+.form .register,
+.login {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #fff;
+  transition: .3s;
+}
+
+.form .register:hover,
+.login:hover {
+  text-decoration: none;
+  margin-left: 5px;
+  color: red;
+}
+
+.error {
+  color: darkred;
+  display: block;
+  text-align: left;
+}
+
+.success-message {
+  background-color: green;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.error-message {
+  background-color: darkred;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
